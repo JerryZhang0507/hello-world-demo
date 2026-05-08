@@ -1,0 +1,2 @@
+[      11ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)

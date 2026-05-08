@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /zh/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "首页" [ref=e7] [cursor=pointer]:
+            - /url: /zh/
+          - link "产品" [ref=e8] [cursor=pointer]:
+            - /url: /zh/products/
+          - link "关于我们" [ref=e9] [cursor=pointer]:
+            - /url: /zh/about.html
+          - link "联系我们" [ref=e10] [cursor=pointer]:
+            - /url: /zh/contact.html
+          - link "博客" [ref=e11] [cursor=pointer]:
+            - /url: /zh/blog/
+        - link " English" [ref=e13] [cursor=pointer]:
+          - /url: /en/
+          - generic [ref=e14]: 
+          - text: English
+  - generic [ref=e18]:
+    - heading "优质不锈钢原材料" [level=1] [ref=e19]
+    - paragraph [ref=e20]: 您值得信赖的不锈钢扁钢与钢丝绳合作伙伴 — 工厂直供，全球出口。
+    - generic [ref=e21]:
+      - link "浏览产品" [ref=e22] [cursor=pointer]:
+        - /url: /zh/products/
+      - link "获取报价" [ref=e23] [cursor=pointer]:
+        - /url: /zh/contact.html
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - heading "产品分类" [level=2] [ref=e27]
+      - paragraph [ref=e28]: 面向全球工业应用的高品质不锈钢原材料
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e35]: 
+        - heading "不锈钢扁钢" [level=3] [ref=e36]
+        - paragraph [ref=e37]: 优质不锈钢扁钢，支持标准规格与定制尺寸。广泛应用于建筑、机械制造与工业加工领域。提供304、316及双相钢牌号。
+        - link "查看详情 " [ref=e38] [cursor=pointer]:
+          - /url: /zh/products/flat-steel-bars/
+          - text: 查看详情
+          - generic [ref=e39]: 
+      - generic [ref=e42]:
+        - generic [ref=e45]: 
+        - heading "不锈钢钢丝绳" [level=3] [ref=e46]
+        - paragraph [ref=e47]: 高抗拉不锈钢钢丝绳，适用于海洋工程、建筑结构、起重吊装及索具应用。提供7×7、7×19及压实股等多种结构。
+        - link "查看详情 " [ref=e48] [cursor=pointer]:
+          - /url: /zh/products/steel-wire-ropes/
+          - text: 查看详情
+          - generic [ref=e49]: 
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - heading "为什么选择 Cinray Metal？" [level=2] [ref=e53]
+      - paragraph [ref=e54]: 三大核心优势，让我们成为您不锈钢采购的可靠伙伴
+    - generic [ref=e55]:
+      - generic [ref=e57]:
+        - generic [ref=e59]: 
+        - heading "质量保证" [level=4] [ref=e60]
+        - paragraph [ref=e61]: 我们的不锈钢产品符合ASTM、AISI、EN等国际标准。每批次均经过严格质检，并随货提供工厂检测证书。
+      - generic [ref=e63]:
+        - generic [ref=e65]: 
+        - heading "工厂直供价格" [level=4] [ref=e66]
+        - paragraph [ref=e67]: 作为源头工厂直供，省去中间环节，将成本优势直接让利给您。大批量订单与长期合作还可享受灵活的付款方式。
+      - generic [ref=e69]:
+        - generic [ref=e71]: 
+        - heading "全球出口经验" [level=4] [ref=e72]
+        - paragraph [ref=e73]: 多年国际物流经验，可发往全球各港口。可靠的物流体系、专业包装与完整的出口单证，确保清关顺畅无忧。
+  - generic [ref=e75]:
+    - heading "准备采购优质不锈钢？" [level=2] [ref=e76]
+    - paragraph [ref=e77]: 联系我们的团队，获取定制报价、产品规格或技术咨询。
+    - generic [ref=e78]:
+      - link "立即询价" [ref=e79] [cursor=pointer]:
+        - /url: /zh/contact.html
+      - link "浏览产品" [ref=e80] [cursor=pointer]:
+        - /url: /zh/products/
+  - contentinfo [ref=e81]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Cinray Metal" [level=5] [ref=e85]
+        - paragraph [ref=e86]: 专业不锈钢原材料全球出口供应商。
+      - generic [ref=e87]:
+        - heading "快速链接" [level=5] [ref=e88]
+        - link "首页" [ref=e89] [cursor=pointer]:
+          - /url: /zh/
+        - link "产品" [ref=e90] [cursor=pointer]:
+          - /url: /zh/products/
+        - link "关于我们" [ref=e91] [cursor=pointer]:
+          - /url: /zh/about.html
+        - link "联系我们" [ref=e92] [cursor=pointer]:
+          - /url: /zh/contact.html
+        - link "博客" [ref=e93] [cursor=pointer]:
+          - /url: /zh/blog/
+      - generic [ref=e94]:
+        - heading "联系方式" [level=5] [ref=e95]
+        - paragraph [ref=e96]:
+          - generic [ref=e97]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e98]:
+          - generic [ref=e99]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e100]:
+          - link " WhatsApp 在线咨询" [ref=e101] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e102]: 
+            - text: WhatsApp 在线咨询
+      - generic [ref=e103]:
+        - heading "获取联系" [level=5] [ref=e104]
+        - paragraph [ref=e105]: 需要报价或了解产品详情？我们随时为您服务。
+        - link "获取报价" [ref=e106] [cursor=pointer]:
+          - /url: /zh/contact.html
+  - paragraph [ref=e109]:
+    - text: © 2026
+    - strong [ref=e110]: Cinray Metal
+    - text: . 基于
+    - link "HTML Codex" [ref=e111] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: 模板设计 (CC BY 4.0)
+  - link "" [ref=e112] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e113]: 

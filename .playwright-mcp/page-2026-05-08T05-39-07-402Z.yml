@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /zh/
+      - button "切换导航" [ref=e5] [cursor=pointer]
+      - text: 
+  - generic [ref=e10]:
+    - heading "优质不锈钢原材料" [level=1] [ref=e11]
+    - paragraph [ref=e12]: 您值得信赖的不锈钢扁钢与钢丝绳合作伙伴 — 工厂直供，全球出口。
+    - generic [ref=e13]:
+      - link "浏览产品" [ref=e14] [cursor=pointer]:
+        - /url: /zh/products/
+      - link "获取报价" [ref=e15] [cursor=pointer]:
+        - /url: /zh/contact.html
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - heading "产品分类" [level=2] [ref=e19]
+      - paragraph [ref=e20]: 面向全球工业应用的高品质不锈钢原材料
+    - generic [ref=e21]:
+      - generic [ref=e24]:
+        - generic [ref=e27]: 
+        - heading "不锈钢扁钢" [level=3] [ref=e28]
+        - paragraph [ref=e29]: 优质不锈钢扁钢，支持标准规格与定制尺寸。广泛应用于建筑、机械制造与工业加工领域。提供304、316及双相钢牌号。
+        - link "查看详情 " [ref=e30] [cursor=pointer]:
+          - /url: /zh/products/flat-steel-bars/
+          - text: 查看详情
+          - generic [ref=e31]: 
+      - generic [ref=e34]:
+        - generic [ref=e37]: 
+        - heading "不锈钢钢丝绳" [level=3] [ref=e38]
+        - paragraph [ref=e39]: 高抗拉不锈钢钢丝绳，适用于海洋工程、建筑结构、起重吊装及索具应用。提供7×7、7×19及压实股等多种结构。
+        - link "查看详情 " [ref=e40] [cursor=pointer]:
+          - /url: /zh/products/steel-wire-ropes/
+          - text: 查看详情
+          - generic [ref=e41]: 
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - heading "为什么选择 Cinray Metal？" [level=2] [ref=e45]
+      - paragraph [ref=e46]: 三大核心优势，让我们成为您不锈钢采购的可靠伙伴
+    - generic [ref=e47]:
+      - generic [ref=e49]:
+        - generic [ref=e51]: 
+        - heading "质量保证" [level=4] [ref=e52]
+        - paragraph [ref=e53]: 我们的不锈钢产品符合ASTM、AISI、EN等国际标准。每批次均经过严格质检，并随货提供工厂检测证书。
+      - generic [ref=e55]:
+        - generic [ref=e57]: 
+        - heading "工厂直供价格" [level=4] [ref=e58]
+        - paragraph [ref=e59]: 作为源头工厂直供，省去中间环节，将成本优势直接让利给您。大批量订单与长期合作还可享受灵活的付款方式。
+      - generic [ref=e61]:
+        - generic [ref=e63]: 
+        - heading "全球出口经验" [level=4] [ref=e64]
+        - paragraph [ref=e65]: 多年国际物流经验，可发往全球各港口。可靠的物流体系、专业包装与完整的出口单证，确保清关顺畅无忧。
+  - generic [ref=e67]:
+    - heading "准备采购优质不锈钢？" [level=2] [ref=e68]
+    - paragraph [ref=e69]: 联系我们的团队，获取定制报价、产品规格或技术咨询。
+    - generic [ref=e70]:
+      - link "立即询价" [ref=e71] [cursor=pointer]:
+        - /url: /zh/contact.html
+      - link "浏览产品" [ref=e72] [cursor=pointer]:
+        - /url: /zh/products/
+  - contentinfo [ref=e73]:
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Cinray Metal" [level=5] [ref=e77]
+        - paragraph [ref=e78]: 专业不锈钢原材料全球出口供应商。
+      - generic [ref=e79]:
+        - heading "快速链接" [level=5] [ref=e80]
+        - link "首页" [ref=e81] [cursor=pointer]:
+          - /url: /zh/
+        - link "产品" [ref=e82] [cursor=pointer]:
+          - /url: /zh/products/
+        - link "关于我们" [ref=e83] [cursor=pointer]:
+          - /url: /zh/about.html
+        - link "联系我们" [ref=e84] [cursor=pointer]:
+          - /url: /zh/contact.html
+        - link "博客" [ref=e85] [cursor=pointer]:
+          - /url: /zh/blog/
+      - generic [ref=e86]:
+        - heading "联系方式" [level=5] [ref=e87]
+        - paragraph [ref=e88]:
+          - generic [ref=e89]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e90]:
+          - generic [ref=e91]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e92]:
+          - link " WhatsApp 在线咨询" [ref=e93] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e94]: 
+            - text: WhatsApp 在线咨询
+      - generic [ref=e95]:
+        - heading "获取联系" [level=5] [ref=e96]
+        - paragraph [ref=e97]: 需要报价或了解产品详情？我们随时为您服务。
+        - link "获取报价" [ref=e98] [cursor=pointer]:
+          - /url: /zh/contact.html
+  - paragraph [ref=e101]:
+    - text: © 2026
+    - strong [ref=e102]: Cinray Metal
+    - text: . 基于
+    - link "HTML Codex" [ref=e103] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: 模板设计 (CC BY 4.0)
+  - link "" [ref=e104] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e105]: 

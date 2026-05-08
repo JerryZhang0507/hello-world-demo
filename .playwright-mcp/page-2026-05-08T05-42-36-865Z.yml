@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /en/
+          - link "Products" [ref=e8] [cursor=pointer]:
+            - /url: /en/products/
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /en/about.html
+          - link "Contact" [ref=e10] [cursor=pointer]:
+            - /url: /en/contact.html
+          - link "Blog" [ref=e11] [cursor=pointer]:
+            - /url: /en/blog/
+        - link " 中文" [ref=e13] [cursor=pointer]:
+          - /url: /zh/about.html
+          - generic [ref=e14]: 
+          - text: 中文
+  - main [ref=e15]:
+    - generic [ref=e19]:
+      - heading "About Us" [level=1] [ref=e20]
+      - navigation "breadcrumb" [ref=e21]:
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - link "Home" [ref=e24] [cursor=pointer]:
+              - /url: /en/
+          - listitem [ref=e25]: / About
+    - generic [ref=e29]:
+      - heading "Who We Are" [level=2] [ref=e30]
+      - paragraph [ref=e31]: Cinray Metal is a professional supplier of stainless steel raw materials, specializing in flat bars and wire ropes for global export markets. Founded with a commitment to quality and reliability, we bridge the gap between China's premier stainless steel manufacturers and international buyers seeking consistent, cost-effective material solutions.
+      - paragraph [ref=e32]: Our core product lines include stainless steel flat bars (201, 304, 316, and 316L grades) and stainless steel wire ropes in various diameters and constructions. Each shipment undergoes rigorous quality inspection against ASTM and GB standards before dispatch, ensuring our customers receive materials that meet precise specifications every time.
+      - paragraph [ref=e33]: With deep roots in China's stainless steel manufacturing hubs, we maintain strong partnerships with ISO-certified mills. This enables us to offer competitive factory-direct pricing while providing the responsive communication and logistics support that international trade demands. From sample requests to full container shipments, our dedicated team supports every step of the procurement process.
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Why Choose Cinray Metal" [level=2] [ref=e37]
+        - paragraph [ref=e38]: We combine manufacturing expertise with international trade experience to deliver value at every stage.
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - generic [ref=e43]: 
+          - heading "Quality Assurance" [level=5] [ref=e44]
+          - paragraph [ref=e45]: All products meet international standards including ASTM and GB. Each batch is inspected before shipment, with mill test certificates provided on request.
+        - generic [ref=e47]:
+          - generic [ref=e49]: 
+          - heading "Factory Direct" [level=5] [ref=e50]
+          - paragraph [ref=e51]: Direct partnerships with ISO-certified mills eliminate middlemen, delivering competitive pricing without compromising on material quality or consistency.
+        - generic [ref=e53]:
+          - generic [ref=e55]: 
+          - heading "Global Logistics" [level=5] [ref=e56]
+          - paragraph [ref=e57]: Experienced in export documentation and international shipping. We coordinate sea freight, air freight, and express delivery to ports and doorsteps worldwide.
+        - generic [ref=e59]:
+          - generic [ref=e61]: 
+          - heading "Customer Service" [level=5] [ref=e62]
+          - paragraph [ref=e63]: Dedicated account support from initial inquiry through delivery. Quick response times, transparent communication, and after-sales follow-up as standard.
+    - paragraph [ref=e69]:
+      - generic [ref=e70]: 
+      - text: Factory Image — To be replaced
+  - contentinfo [ref=e71]:
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - heading "Cinray Metal" [level=5] [ref=e75]
+        - paragraph [ref=e76]: Professional stainless steel raw materials supplier for global export.
+      - generic [ref=e77]:
+        - heading "Quick Links" [level=5] [ref=e78]
+        - link "Home" [ref=e79] [cursor=pointer]:
+          - /url: /en/
+        - link "Products" [ref=e80] [cursor=pointer]:
+          - /url: /en/products/
+        - link "About" [ref=e81] [cursor=pointer]:
+          - /url: /en/about.html
+        - link "Contact" [ref=e82] [cursor=pointer]:
+          - /url: /en/contact.html
+        - link "Blog" [ref=e83] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e84]:
+        - heading "Contact" [level=5] [ref=e85]
+        - paragraph [ref=e86]:
+          - generic [ref=e87]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e88]:
+          - generic [ref=e89]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e90]:
+          - link " Chat on WhatsApp" [ref=e91] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e92]: 
+            - text: Chat on WhatsApp
+      - generic [ref=e93]:
+        - heading "Get In Touch" [level=5] [ref=e94]
+        - paragraph [ref=e95]: Need a quote or have questions about our products? We are here to help.
+        - link "Request Quote" [ref=e96] [cursor=pointer]:
+          - /url: /en/contact.html
+  - paragraph [ref=e99]:
+    - text: © 2026
+    - strong [ref=e100]: Cinray Metal
+    - text: . Designed By
+    - link "HTML Codex" [ref=e101] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: (CC BY 4.0)
+  - link "" [ref=e102] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e103]: 

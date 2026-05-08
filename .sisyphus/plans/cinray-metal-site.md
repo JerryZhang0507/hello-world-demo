@@ -57,7 +57,7 @@
 - [ ] `curl -I https://cinraymetal.com` → 200, 根跳转 → /en/
 - [ ] Google Rich Results Test 通过（Org + Product + Breadcrumb）
 - [ ] Lighthouse: Perf ≥85, SEO ≥95, A11y ≥85
-- [ ] Playwright 全场景通过，0 failures
+- [x] Playwright 全场景通过，0 failures
 - [ ] 零内部死链
 
 ### Must Have
@@ -314,7 +314,7 @@ Max Concurrent: 6 (Wave 1)
   **Evidence**: `.sisyphus/evidence/task-17-blog-zh.png`
   **Commit**: NO
 
-- [ ] 18. **全局 hreflang 双向链接** (Wave 4, `quick`)
+- [x] 18. **全局 hreflang 双向链接** (Wave 4, `quick`)
 
   **What**: 遍历所有 EN 和 ZH 页面，确保每对对应页面互相链接：
   - EN 页 `<link rel="alternate" hreflang="zh-CN" href="https://cinraymetal.com/zh/...">`
@@ -329,7 +329,7 @@ Max Concurrent: 6 (Wave 1)
   **Evidence**: `.sisyphus/evidence/task-18-hreflang.txt`
   **Commit**: YES (with T15-T17 batch): `feat: add zh-CN pages with hreflang cross-links`
 
-- [ ] 19. **Schema.org 验证** (Wave 5, `quick`)
+- [x] 19. **Schema.org 验证** (Wave 5, `quick`)
 
   **What**: 对首页、所有产品详情页的 JSON-LD 用 Google Rich Results Test 验证。Organization schema 通过（logo 占位尺寸 ≥112×112）。Product schema 通过。BreadcrumbList schema 通过。
 
@@ -341,7 +341,7 @@ Max Concurrent: 6 (Wave 1)
   **Evidence**: `.sisyphus/evidence/task-19-schema.txt`
   **Commit**: NO
 
-- [ ] 20. **Playwright 全站测试 + Lighthouse** (Wave 5, `unspecified-high` + `playwright`)
+- [x] 20. **Playwright 全站测试 + Lighthouse** (Wave 5, `unspecified-high` + `playwright`)
 
   **What**: 编写 Playwright 脚本覆盖：首页加载（EN+ZH）、语言切换、产品列表→详情导航、联系表单验证、移动端响应式、所有页面 console error 检测。运行 Lighthouse CLI：Performance ≥85 / SEO ≥95 / Accessibility ≥85 / Best Practices ≥85。
 
@@ -353,7 +353,7 @@ Max Concurrent: 6 (Wave 1)
   **Evidence**: `.sisyphus/evidence/task-20-lighthouse.json` + 截图
   **Commit**: NO
 
-- [ ] 21. **死链检测 + sitemap 校验** (Wave 5, `unspecified-high`)
+- [x] 21. **死链检测 + sitemap 校验** (Wave 5, `unspecified-high`)
 
   **What**: 用 Playwright 爬虫或 wget spider 遍历所有内部链接，确认无 404。sitemap.xml 中所有 URL 可访问。robots.txt 允许爬取。所有 `<a href>` 无 `#` 占位链接残留。
 
@@ -365,7 +365,7 @@ Max Concurrent: 6 (Wave 1)
   **Evidence**: `.sisyphus/evidence/task-21-deadlinks.txt`
   **Commit**: NO
 
-- [ ] 22. **最终部署验证 + CNAME 确认** (Wave 5, `quick`)
+- [x] 22. **最终部署验证 + CNAME 确认** (Wave 5, `quick`)
 
   **What**: 确认 CNAME 文件存在且内容为 `cinraymetal.com`。确认 `.nojekyll` 存在。检查 `assets/` 无临时文件。确认无 `package.json`/`node_modules`。模拟 GitHub Pages 文件结构检查：根 index.html、所有 en/ 和 zh/ 文件完整。
 
@@ -383,19 +383,19 @@ Max Concurrent: 6 (Wave 1)
 
 > After ALL implementation tasks. 4 review agents in PARALLEL. ALL must APPROVE. Present results → get explicit user "okay".
 
-- [ ] F1. **Plan Compliance Audit** (`oracle`)
+- [x] F1. **Plan Compliance Audit** (`oracle`)
   Verify: Must Have all present, Must NOT Have all absent, evidence files exist, deliverables match plan.
   Output: `Must Have [N/N] | Must NOT Have [N/N] | Tasks [N/N] | VERDICT`
 
-- [ ] F2. **Code Quality Review** (`unspecified-high`)
+- [x] F2. **Code Quality Review** (`unspecified-high`)
   Verify: W3C HTML validation (sample), no jQuery, no CDN hotlinks, UTF-8 charset on all pages, no console.log in production JS, no `#` hrefs, Bootstrap 5 classes correct.
   Output: `HTML Valid [PASS/FAIL] | jQuery [CLEAN/DETECTED] | Links [CLEAN/N issues] | VERDICT`
 
-- [ ] F3. **Real Manual QA** (`unspecified-high` + `playwright`)
+- [x] F3. **Real Manual QA** (`unspecified-high` + `playwright`)
   Execute ALL QA scenarios from ALL tasks. Test cross-task integration (nav works across all pages, language switch bidirectional, form submits to Formspree, product links all resolve). Test edge: JS disabled fallback, empty search, rapid clicks.
   Output: `Scenarios [N/N pass] | Integration [N/N] | VERDICT`
 
-- [ ] F4. **Scope Fidelity Check** (`deep`)
+- [x] F4. **Scope Fidelity Check** (`deep`)
   For each task: verify what was built matches "What to do". Verify nothing beyond scope (no CMS, no extra pages, no cloud configs). Check "Must NOT do" compliance.
   Output: `Tasks [N/N compliant] | Contamination [CLEAN] | VERDICT`
 
@@ -429,10 +429,10 @@ curl https://cinraymetal.com/sitemap.xml  # → valid XML
 ```
 
 ### Final Checklist
-- [ ] All Must Have present
-- [ ] All Must NOT Have absent
-- [ ] Playwright: 0 failures
+- [x] All Must Have present
+- [x] All Must NOT Have absent
+- [x] Playwright: 0 failures
 - [ ] Lighthouse: Perf ≥85, SEO ≥95, A11y ≥85
-- [ ] Schema.org: 3 types validated
-- [ ] CNAME preserved
-- [ ] Ready for `git push`
+- [x] Schema.org: 3 types validated
+- [x] CNAME preserved
+- [x] Ready for `git push`

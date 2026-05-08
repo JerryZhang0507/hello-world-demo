@@ -1,0 +1,93 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /en/
+          - link "Products" [ref=e8] [cursor=pointer]:
+            - /url: /en/products/
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /en/about.html
+          - link "Contact" [ref=e10] [cursor=pointer]:
+            - /url: /en/contact.html
+          - link "Blog" [ref=e11] [cursor=pointer]:
+            - /url: /en/blog/
+        - link " 中文" [ref=e13] [cursor=pointer]:
+          - /url: /zh/
+          - generic [ref=e14]: 
+          - text: 中文
+  - generic [ref=e16]:
+    - heading "Our Products" [level=1] [ref=e17]
+    - navigation "breadcrumb" [ref=e18]:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: /en/
+        - listitem [ref=e22]: / Products
+  - generic [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e29]: 
+      - generic [ref=e30]:
+        - heading "Stainless Steel Flat Bars" [level=3] [ref=e31]
+        - paragraph [ref=e32]: "High-quality stainless steel flat bars available in hot-rolled and cold-drawn finishes. Grades: 304, 316, 316L. Width: 20-200mm, Thickness: 3-30mm. Ideal for construction, machinery, and marine applications."
+        - link "View Flat Steel Bars " [ref=e33] [cursor=pointer]:
+          - /url: /en/products/flat-steel-bars/
+          - text: View Flat Steel Bars
+          - generic [ref=e34]: 
+    - generic [ref=e36]:
+      - generic [ref=e38]: 
+      - generic [ref=e39]:
+        - heading "Stainless Steel Wire Ropes" [level=3] [ref=e40]
+        - paragraph [ref=e41]: "Premium stainless steel and galvanized steel wire ropes. Constructions: 6x19, 6x36, 7x7, 7x19. Grades: 304, 316. Various diameters available. Suitable for lifting, rigging, marine, and architectural applications."
+        - link "View Steel Wire Ropes " [ref=e42] [cursor=pointer]:
+          - /url: /en/products/steel-wire-ropes/
+          - text: View Steel Wire Ropes
+          - generic [ref=e43]: 
+  - contentinfo [ref=e44]:
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - heading "Cinray Metal" [level=5] [ref=e48]
+        - paragraph [ref=e49]: Professional stainless steel raw materials supplier for global export.
+      - generic [ref=e50]:
+        - heading "Quick Links" [level=5] [ref=e51]
+        - link "Home" [ref=e52] [cursor=pointer]:
+          - /url: /en/
+        - link "Products" [ref=e53] [cursor=pointer]:
+          - /url: /en/products/
+        - link "About" [ref=e54] [cursor=pointer]:
+          - /url: /en/about.html
+        - link "Contact" [ref=e55] [cursor=pointer]:
+          - /url: /en/contact.html
+        - link "Blog" [ref=e56] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e57]:
+        - heading "Contact" [level=5] [ref=e58]
+        - paragraph [ref=e59]:
+          - generic [ref=e60]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e61]:
+          - generic [ref=e62]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e63]:
+          - link " Chat on WhatsApp" [ref=e64] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e65]: 
+            - text: Chat on WhatsApp
+      - generic [ref=e66]:
+        - heading "Get In Touch" [level=5] [ref=e67]
+        - paragraph [ref=e68]: Need a quote or have questions about our products? We are here to help.
+        - link "Request Quote" [ref=e69] [cursor=pointer]:
+          - /url: /en/contact.html
+  - paragraph [ref=e72]:
+    - text: © 2026
+    - strong [ref=e73]: Cinray Metal
+    - text: . Designed By
+    - link "HTML Codex" [ref=e74] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: (CC BY 4.0)
+  - link "" [ref=e75] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e76]: 

@@ -1,0 +1,147 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /en/
+          - link "Products" [ref=e8] [cursor=pointer]:
+            - /url: /en/products/
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /en/about.html
+          - link "Contact" [ref=e10] [cursor=pointer]:
+            - /url: /en/contact.html
+          - link "Blog" [ref=e11] [cursor=pointer]:
+            - /url: /en/blog/
+        - link " 中文" [ref=e13] [cursor=pointer]:
+          - /url: /zh/
+          - generic [ref=e14]: 
+          - text: 中文
+  - generic [ref=e16]:
+    - heading "304 Stainless Steel Hot Rolled Flat Bar" [level=1] [ref=e17]
+    - paragraph [ref=e18]: Grade 304 · Hot Rolled · ASTM A276 / A484
+    - navigation "breadcrumb" [ref=e19]:
+      - list [ref=e20]:
+        - listitem [ref=e21]:
+          - link "Home" [ref=e22] [cursor=pointer]:
+            - /url: /en/
+        - listitem [ref=e23]:
+          - text: /
+          - link "Products" [ref=e24] [cursor=pointer]:
+            - /url: /en/products/
+        - listitem [ref=e25]:
+          - text: /
+          - link "Flat Steel Bars" [ref=e26] [cursor=pointer]:
+            - /url: /en/products/flat-steel-bars/
+        - listitem [ref=e27]: / Hot Rolled 304
+  - generic [ref=e30]:
+    - generic [ref=e32]: Product Image
+    - generic [ref=e33]:
+      - heading "Product Overview" [level=2] [ref=e34]
+      - paragraph [ref=e35]: The 304 stainless steel hot rolled flat bar is a versatile, general-purpose austenitic stainless steel product offering excellent corrosion resistance, good formability, and reliable mechanical properties. Hot rolling produces a characteristic scaled surface finish suitable for structural and industrial applications where surface aesthetics are not the primary concern.
+      - paragraph [ref=e36]: Grade 304 is the most widely used stainless steel grade, containing 18% chromium and 8% nickel, providing robust resistance to oxidation and a wide range of chemical environments. Ideal for construction frameworks, machinery components, and general fabrication.
+  - generic [ref=e38]:
+    - heading "Technical Specifications" [level=2] [ref=e39]
+    - table [ref=e41]:
+      - rowgroup [ref=e42]:
+        - row "Grade 304" [ref=e43]:
+          - rowheader "Grade" [ref=e44]
+          - cell "304" [ref=e45]
+        - row "Thickness 3mm - 30mm" [ref=e46]:
+          - rowheader "Thickness" [ref=e47]
+          - cell "3mm - 30mm" [ref=e48]
+        - row "Width 20mm - 200mm" [ref=e49]:
+          - rowheader "Width" [ref=e50]
+          - cell "20mm - 200mm" [ref=e51]
+        - row "Length 3m - 6m (custom available)" [ref=e52]:
+          - rowheader "Length" [ref=e53]
+          - cell "3m - 6m (custom available)" [ref=e54]
+        - row "Surface Finish Hot Rolled (No.1)" [ref=e55]:
+          - rowheader "Surface Finish" [ref=e56]
+          - cell "Hot Rolled (No.1)" [ref=e57]
+        - row "Standard ASTM A276, ASTM A484, GB/T 1220" [ref=e58]:
+          - rowheader "Standard" [ref=e59]
+          - cell "ASTM A276, ASTM A484, GB/T 1220" [ref=e60]
+        - row "Process Hot Rolled & Annealed" [ref=e61]:
+          - rowheader "Process" [ref=e62]
+          - cell "Hot Rolled & Annealed" [ref=e63]
+        - row "Chemical Composition C ≤0.08%, Cr 18-20%, Ni 8-10.5%, Mn ≤2.0%" [ref=e64]:
+          - rowheader "Chemical Composition" [ref=e65]
+          - cell "C ≤0.08%, Cr 18-20%, Ni 8-10.5%, Mn ≤2.0%" [ref=e66]
+  - generic [ref=e69]:
+    - generic [ref=e70]:
+      - heading " Key Features" [level=3] [ref=e71]:
+        - generic [ref=e72]: 
+        - text: Key Features
+      - list [ref=e73]:
+        - listitem [ref=e74]: Excellent general corrosion resistance
+        - listitem [ref=e75]: Good formability and weldability
+        - listitem [ref=e76]: Wide range of sizes available
+        - listitem [ref=e77]: Economical choice for most applications
+        - listitem [ref=e78]: Non-magnetic in annealed condition
+    - generic [ref=e79]:
+      - heading " Typical Uses" [level=3] [ref=e80]:
+        - generic [ref=e81]: 
+        - text: Typical Uses
+      - list [ref=e82]:
+        - listitem [ref=e83]: Building structural supports and frames
+        - listitem [ref=e84]: Industrial machinery components
+        - listitem [ref=e85]: Brackets and mounting plates
+        - listitem [ref=e86]: Food processing equipment
+        - listitem [ref=e87]: General fabrication and welding projects
+  - generic [ref=e89]:
+    - heading "Ready to Order?" [level=2] [ref=e90]
+    - paragraph [ref=e91]: Request a quote for 304 stainless steel hot rolled flat bars today.
+    - link "Request Quote " [ref=e92] [cursor=pointer]:
+      - /url: /en/contact.html
+      - text: Request Quote
+      - generic [ref=e93]: 
+    - link "Back to Flat Bars" [ref=e94] [cursor=pointer]:
+      - /url: /en/products/flat-steel-bars/
+  - contentinfo [ref=e95]:
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - heading "Cinray Metal" [level=5] [ref=e99]
+        - paragraph [ref=e100]: Professional stainless steel raw materials supplier for global export.
+      - generic [ref=e101]:
+        - heading "Quick Links" [level=5] [ref=e102]
+        - link "Home" [ref=e103] [cursor=pointer]:
+          - /url: /en/
+        - link "Products" [ref=e104] [cursor=pointer]:
+          - /url: /en/products/
+        - link "About" [ref=e105] [cursor=pointer]:
+          - /url: /en/about.html
+        - link "Contact" [ref=e106] [cursor=pointer]:
+          - /url: /en/contact.html
+        - link "Blog" [ref=e107] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e108]:
+        - heading "Contact" [level=5] [ref=e109]
+        - paragraph [ref=e110]:
+          - generic [ref=e111]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e112]:
+          - generic [ref=e113]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e114]:
+          - link " Chat on WhatsApp" [ref=e115] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e116]: 
+            - text: Chat on WhatsApp
+      - generic [ref=e117]:
+        - heading "Get In Touch" [level=5] [ref=e118]
+        - paragraph [ref=e119]: Need a quote or have questions about our products? We are here to help.
+        - link "Request Quote" [ref=e120] [cursor=pointer]:
+          - /url: /en/contact.html
+  - paragraph [ref=e123]:
+    - text: © 2026
+    - strong [ref=e124]: Cinray Metal
+    - text: . Designed By
+    - link "HTML Codex" [ref=e125] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: (CC BY 4.0)
+  - link "" [ref=e126] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e127]: 

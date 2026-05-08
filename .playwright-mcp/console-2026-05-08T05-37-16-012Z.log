@@ -1,0 +1,7 @@
+[      35ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)
+[     286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:9000/favicon.ico:0
+[  110348ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)
+[  159132ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)

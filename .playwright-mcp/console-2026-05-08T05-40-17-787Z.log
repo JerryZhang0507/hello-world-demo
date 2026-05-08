@@ -1,0 +1,8 @@
+[      10ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)
+[   11230ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)
+[   37303ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)
+[   53586ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)

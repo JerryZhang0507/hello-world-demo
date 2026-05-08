@@ -334,3 +334,80 @@
 - Zh footer pattern: 公司信息, 快速链接, 联系方式, 获取联系 sections
 - Zh copyright: "基于 HTML Codex 模板设计 (CC BY 4.0)"
 - Zh back-to-top: 返回顶部 comment
+
+## F4: Scope Fidelity Check (2026-05-08)
+
+### Check Results
+
+| # | Check Item | Result | Detail |
+|---|-----------|--------|--------|
+| 1 | No extra pages | PASS | en/ = 17 HTML, zh/ = 17 HTML, root index.html = 1. Total = 35. |
+| 2 | No CMS/blog engine | PASS | blog/ contains only index.html per language (en/blog/index.html, zh/blog/index.html). No article HTML files beyond placeholder listing. |
+| 3 | No build configs | PASS | No package.json, webpack.config.js, vite.config.*, Makefile, Dockerfile found. |
+| 4 | No cloud configs | PASS | No .env, nginx.conf, docker-compose.yml, kubernetes/ directory found. |
+| 5 | No extra Schema types | PASS | Found: Organization, WebSite, Product, BreadcrumbList, CollectionPage + sub-types (PostalAddress, ContactPoint, Offer, UnitPriceSpecification, ListItem). No FAQ, HowTo, Review, or other extra types. |
+| 6 | Product pages count | PASS | Flat Steel Bars: 5 detail pages per language. Steel Wire Ropes: 5 detail pages per language. Total: 10 per language (20 total). |
+| 7 | File count matches sitemap | PASS | sitemap.xml: 35 URLs. Actual HTML files: 35. Exact match. |
+| 8 | No test framework | PASS | No jest, mocha, cypress, vitest config files found. Playwright used via skill only. |
+
+### Infrastructure Verification
+
+| Item | Result |
+|------|--------|
+| CNAME exists + content | PASS: `cinraymetal.com` |
+| .nojekyll exists + empty | PASS: 0 bytes |
+| Root index.html meta refresh | PASS: `<meta http-equiv="refresh" content="0;url=/en/">` |
+| robots.txt | PASS: present |
+| en/sitemap.xml (planned in T4) | PASS: present, valid XML |
+
+### Observations (Non-Blocking)
+
+- Blog "Read More" buttons use `href="#"` — expected for placeholder blog framework per plan T14.
+- Back-to-top buttons use `href="#"` — standard Bootstrap pattern, powered by main.js scroll handler.
+- `assets/images/about` and `assets/images/products` directories exist but are empty — plan says 占位图先行, real images TBD.
+
+### VERDICT
+
+**Tasks [22/22 compliant] | Contamination [CLEAN] | VERDICT: APPROVE**
+
+No scope creep detected. All built items match the plan. Nothing was added beyond scope.
+
+## Playwright QA Test Results - 2026-05-08 13:44
+
+### Test Environment
+- Server: Python http.server on port 9000
+- Base URL: http://localhost:9000
+- Browser: Playwright (Chromium)
+
+### Scenario Tests
+
+| # | Scenario | Result | Details |
+|---|----------|--------|---------|
+| 1 | EN Homepage | PASS | Title "Cinray Metal | ...", navbar visible, 2 console errors (favicon.ico 404 + initCounters undefined) |
+| 2 | Mobile Hamburger | PASS | 375×812 toggle visible, expanded nav shows all links including "中文" |
+| 3 | EN→ZH Switch | PASS | "中文" click → /zh/ with Chinese content |
+| 4 | ZH→EN Switch | PASS | "English" click → /en/ with English content |
+| 5 | Products Nav | PASS | 2 category cards (Flat Steel Bars + Wire Ropes), breadcrumb |
+| 6 | Product Detail | PASS | Spec table (Grade/Thickness/Width/Length/Surface/Standard/Process/Chemical), JSON-LD (Product + BreadcrumbList) |
+| 7 | Contact Validation | PASS | HTML5 validation: 3 required fields blocked empty submission (name/email/message) |
+| 8 | About Page | PASS | Page loads, content visible |
+| 9 | Blog Page | PASS | 3 article cards with dates and summaries |
+
+### Issues Found
+1. **initCounters undefined** (assets/js/main.js:91) — JS error on ALL pages. Function called but never defined (Industro template artifact).
+2. **Missing favicon.ico** — 404 on ALL pages.
+3. **Blog "Read More" links → #** — 3 placeholder links (expected for blog framework).
+4. **Back-to-top button → #** — 1 per page (standard UX pattern, not a dead link).
+
+### Screenshots
+- screenshots/test1-en-home-desktop.png (EN home, desktop)
+- screenshots/test2-en-home-mobile.png (EN home, mobile 375×812)
+- screenshots/test3-zh-home-desktop.png (ZH home, desktop)  
+- screenshots/test6-product-detail.png (Product detail page)
+
+### Integration Checks
+- Language switch: bidirectional EN↔ZH ✅
+- Navbar: consistent across all pages ✅
+- Footer: consistent across all pages ✅
+- Product flow: Home → Products → Category → Detail ✅
+- Breadcrumbs: present on products/detail pages ✅

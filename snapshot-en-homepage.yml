@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /en/
+          - link "Products" [ref=e8] [cursor=pointer]:
+            - /url: /en/products/
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /en/about.html
+          - link "Contact" [ref=e10] [cursor=pointer]:
+            - /url: /en/contact.html
+          - link "Blog" [ref=e11] [cursor=pointer]:
+            - /url: /en/blog/
+        - link " 中文" [ref=e13] [cursor=pointer]:
+          - /url: /zh/
+          - generic [ref=e14]: 
+          - text: 中文
+  - generic [ref=e18]:
+    - heading "Premium Stainless Steel Raw Materials" [level=1] [ref=e19]
+    - paragraph [ref=e20]: Your trusted partner for stainless steel flat bars and wire ropes — factory direct, global export.
+    - generic [ref=e21]:
+      - link "View Products" [ref=e22] [cursor=pointer]:
+        - /url: /en/products/
+      - link "Get Quote" [ref=e23] [cursor=pointer]:
+        - /url: /en/contact.html
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Our Products" [level=2] [ref=e27]
+      - paragraph [ref=e28]: High-quality stainless steel materials for industrial applications worldwide
+    - generic [ref=e29]:
+      - generic [ref=e32]:
+        - generic [ref=e35]: 
+        - heading "Stainless Steel Flat Bars" [level=3] [ref=e36]
+        - paragraph [ref=e37]: Premium stainless steel flat bars in standard and custom dimensions. Ideal for construction, manufacturing, and industrial fabrication. Available in 304, 316, and duplex grades.
+        - link "View Details " [ref=e38] [cursor=pointer]:
+          - /url: /en/products/flat-steel-bars/
+          - text: View Details
+          - generic [ref=e39]: 
+      - generic [ref=e42]:
+        - generic [ref=e45]: 
+        - heading "Stainless Steel Wire Ropes" [level=3] [ref=e46]
+        - paragraph [ref=e47]: High-tensile stainless steel wire ropes for marine, architectural, lifting, and rigging applications. Available in various constructions including 7×7, 7×19, and compacted strand.
+        - link "View Details " [ref=e48] [cursor=pointer]:
+          - /url: /en/products/steel-wire-ropes/
+          - text: View Details
+          - generic [ref=e49]: 
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - heading "Why Choose Cinray Metal?" [level=2] [ref=e53]
+      - paragraph [ref=e54]: Three pillars that make us the right partner for your stainless steel sourcing needs
+    - generic [ref=e55]:
+      - generic [ref=e57]:
+        - generic [ref=e59]: 
+        - heading "Quality Assurance" [level=4] [ref=e60]
+        - paragraph [ref=e61]: Our stainless steel products meet international standards including ASTM, AISI, and EN. Every batch undergoes rigorous quality control and comes with mill test certificates.
+      - generic [ref=e63]:
+        - generic [ref=e65]: 
+        - heading "Factory Direct Pricing" [level=4] [ref=e66]
+        - paragraph [ref=e67]: As a factory-direct supplier, we eliminate middlemen and pass the savings to you. Competitive pricing with flexible payment terms for bulk orders and long-term partnerships.
+      - generic [ref=e69]:
+        - generic [ref=e71]: 
+        - heading "Global Export Experience" [level=4] [ref=e72]
+        - paragraph [ref=e73]: With years of international shipping expertise, we deliver to ports worldwide. Reliable logistics, proper packaging, and complete export documentation for seamless customs clearance.
+  - generic [ref=e75]:
+    - heading "Ready to Source Quality Stainless Steel?" [level=2] [ref=e76]
+    - paragraph [ref=e77]: Contact our team for a customized quote, product specifications, or technical consultation.
+    - generic [ref=e78]:
+      - link "Request a Quote" [ref=e79] [cursor=pointer]:
+        - /url: /en/contact.html
+      - link "Browse Products" [ref=e80] [cursor=pointer]:
+        - /url: /en/products/
+  - contentinfo [ref=e81]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - heading "Cinray Metal" [level=5] [ref=e85]
+        - paragraph [ref=e86]: Professional stainless steel raw materials supplier for global export.
+      - generic [ref=e87]:
+        - heading "Quick Links" [level=5] [ref=e88]
+        - link "Home" [ref=e89] [cursor=pointer]:
+          - /url: /en/
+        - link "Products" [ref=e90] [cursor=pointer]:
+          - /url: /en/products/
+        - link "About" [ref=e91] [cursor=pointer]:
+          - /url: /en/about.html
+        - link "Contact" [ref=e92] [cursor=pointer]:
+          - /url: /en/contact.html
+        - link "Blog" [ref=e93] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e94]:
+        - heading "Contact" [level=5] [ref=e95]
+        - paragraph [ref=e96]:
+          - generic [ref=e97]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e98]:
+          - generic [ref=e99]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e100]:
+          - link " Chat on WhatsApp" [ref=e101] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e102]: 
+            - text: Chat on WhatsApp
+      - generic [ref=e103]:
+        - heading "Get In Touch" [level=5] [ref=e104]
+        - paragraph [ref=e105]: Need a quote or have questions about our products? We are here to help.
+        - link "Request Quote" [ref=e106] [cursor=pointer]:
+          - /url: /en/contact.html
+  - paragraph [ref=e109]:
+    - text: © 2026
+    - strong [ref=e110]: Cinray Metal
+    - text: . Designed By
+    - link "HTML Codex" [ref=e111] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: (CC BY 4.0)
+  - link "" [ref=e112] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e113]: 

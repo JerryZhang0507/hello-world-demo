@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /en/
+          - link "Products" [ref=e8] [cursor=pointer]:
+            - /url: /en/products/
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /en/about.html
+          - link "Contact" [ref=e10] [cursor=pointer]:
+            - /url: /en/contact.html
+          - link "Blog" [ref=e11] [cursor=pointer]:
+            - /url: /en/blog/
+        - link " 中文" [ref=e13] [cursor=pointer]:
+          - /url: /zh/
+          - generic [ref=e14]: 
+          - text: 中文
+  - generic [ref=e16]:
+    - heading "Contact Us" [level=1] [ref=e17]
+    - navigation "breadcrumb animated slideInDown" [ref=e18]:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: /en/
+        - listitem [ref=e22]: / Contact
+  - main [ref=e23]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Send Us a Message" [level=2] [ref=e28]
+        - paragraph [ref=e29]: Fill out the form below and we will get back to you within 24 hours.
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Name *
+            - textbox "Name *" [ref=e34]
+          - generic [ref=e35]:
+            - generic [ref=e36]: Email *
+            - textbox "Email *" [ref=e37]
+          - generic [ref=e38]:
+            - generic [ref=e39]: Phone / WhatsApp
+            - textbox "Phone / WhatsApp" [ref=e40]
+          - generic [ref=e41]:
+            - generic [ref=e42]: Subject
+            - textbox "Subject" [ref=e43]:
+              - /placeholder: e.g. Quote request for stainless steel flat bar
+          - generic [ref=e44]:
+            - generic [ref=e45]: Message *
+            - textbox "Message *" [ref=e46]
+          - button "Send Message" [ref=e48] [cursor=pointer]
+      - generic [ref=e49]:
+        - heading "Contact Information" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Reach out to us through any of the channels below.
+        - generic [ref=e52]:
+          - generic [ref=e55] [cursor=pointer]: 
+          - generic [ref=e56]:
+            - heading "Email" [level=5] [ref=e57]
+            - paragraph [ref=e58]:
+              - link "info@cinraymetal.com" [ref=e59] [cursor=pointer]:
+                - /url: mailto:info@cinraymetal.com
+        - generic [ref=e60]:
+          - generic [ref=e63] [cursor=pointer]: 
+          - generic [ref=e64]:
+            - heading "Phone" [level=5] [ref=e65]
+            - paragraph [ref=e66]: +86-XXX-XXXX-XXXX
+        - generic [ref=e67]:
+          - generic [ref=e70] [cursor=pointer]: 
+          - generic [ref=e71]:
+            - heading "WhatsApp" [level=5] [ref=e72]
+            - paragraph [ref=e73]:
+              - link "Chat on WhatsApp" [ref=e74] [cursor=pointer]:
+                - /url: https://wa.me/8613800000000
+        - generic [ref=e75]:
+          - generic [ref=e78] [cursor=pointer]: 
+          - generic [ref=e79]:
+            - heading "WeChat" [level=5] [ref=e80]
+            - paragraph [ref=e81]: "WeChat ID: cinray_metal"
+        - generic [ref=e82]:
+          - generic [ref=e85] [cursor=pointer]: 
+          - generic [ref=e86]:
+            - heading "Working Hours" [level=5] [ref=e87]
+            - paragraph [ref=e88]:
+              - text: Monday - Friday
+              - text: 9:00 AM - 6:00 PM (GMT+8)
+  - contentinfo [ref=e89]:
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - heading "Cinray Metal" [level=5] [ref=e93]
+        - paragraph [ref=e94]: Professional stainless steel raw materials supplier for global export.
+      - generic [ref=e95]:
+        - heading "Quick Links" [level=5] [ref=e96]
+        - link "Home" [ref=e97] [cursor=pointer]:
+          - /url: /en/
+        - link "Products" [ref=e98] [cursor=pointer]:
+          - /url: /en/products/
+        - link "About" [ref=e99] [cursor=pointer]:
+          - /url: /en/about.html
+        - link "Contact" [ref=e100] [cursor=pointer]:
+          - /url: /en/contact.html
+        - link "Blog" [ref=e101] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e102]:
+        - heading "Contact" [level=5] [ref=e103]
+        - paragraph [ref=e104]:
+          - generic [ref=e105]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e106]:
+          - generic [ref=e107]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e108]:
+          - link " Chat on WhatsApp" [ref=e109] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e110]: 
+            - text: Chat on WhatsApp
+      - generic [ref=e111]:
+        - heading "Get In Touch" [level=5] [ref=e112]
+        - paragraph [ref=e113]: Need a quote or have questions about our products? We are here to help.
+        - link "Request Quote" [ref=e114] [cursor=pointer]:
+          - /url: /en/contact.html
+  - paragraph [ref=e117]:
+    - text: © 2026
+    - strong [ref=e118]: Cinray Metal
+    - text: . Designed By
+    - link "HTML Codex" [ref=e119] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: (CC BY 4.0)
+  - link "" [ref=e120] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e121]: 

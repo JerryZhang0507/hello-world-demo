@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cinray Metal" [ref=e4] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Home" [ref=e7] [cursor=pointer]:
+            - /url: /en/
+          - link "Products" [ref=e8] [cursor=pointer]:
+            - /url: /en/products/
+          - link "About" [ref=e9] [cursor=pointer]:
+            - /url: /en/about.html
+          - link "Contact" [ref=e10] [cursor=pointer]:
+            - /url: /en/contact.html
+          - link "Blog" [ref=e11] [cursor=pointer]:
+            - /url: /en/blog/
+        - link " 中文" [ref=e13] [cursor=pointer]:
+          - /url: /zh/
+          - generic [ref=e14]: 
+          - text: 中文
+  - generic [ref=e18]:
+    - heading "Blog" [level=1] [ref=e19]
+    - paragraph [ref=e20]: Industry Insights & Updates
+  - generic [ref=e23]:
+    - generic [ref=e26]:
+      - paragraph [ref=e27]: May 8, 2026
+      - 'heading "Understanding Stainless Steel Grades: 304 vs 316 vs 316L" [level=2] [ref=e28]'
+      - paragraph [ref=e29]: Learn the key differences between the most common stainless steel grades used in flat bars and wire ropes. Discover which grade is best for your application based on corrosion resistance, strength, and cost.
+      - link "Read More " [ref=e30] [cursor=pointer]:
+        - /url: "#"
+        - text: Read More
+        - generic [ref=e31]: 
+    - generic [ref=e34]:
+      - paragraph [ref=e35]: May 5, 2026
+      - heading "How to Choose the Right Wire Rope for Marine Applications" [level=2] [ref=e36]
+      - paragraph [ref=e37]: Marine environments demand specific wire rope characteristics. Explore the advantages of galvanized vs stainless steel wire ropes for saltwater exposure, and understand construction types.
+      - link "Read More " [ref=e38] [cursor=pointer]:
+        - /url: "#"
+        - text: Read More
+        - generic [ref=e39]: 
+    - generic [ref=e42]:
+      - paragraph [ref=e43]: May 1, 2026
+      - 'heading "The Export Guide: Shipping Stainless Steel Products Internationally" [level=2] [ref=e44]'
+      - paragraph [ref=e45]: "A practical guide for international buyers: understanding shipping terms, packaging standards for steel products, customs documentation, and how to ensure your order arrives safely."
+      - link "Read More " [ref=e46] [cursor=pointer]:
+        - /url: "#"
+        - text: Read More
+        - generic [ref=e47]: 
+  - generic [ref=e49]:
+    - heading "Stay Informed on Stainless Steel Trends" [level=2] [ref=e50]
+    - paragraph [ref=e51]: Bookmark our blog for the latest industry insights, product guides, and export tips.
+    - generic [ref=e52]:
+      - link "Contact Our Experts" [ref=e53] [cursor=pointer]:
+        - /url: /en/contact.html
+      - link "Browse Products" [ref=e54] [cursor=pointer]:
+        - /url: /en/products/
+  - contentinfo [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - heading "Cinray Metal" [level=5] [ref=e59]
+        - paragraph [ref=e60]: Professional stainless steel raw materials supplier for global export.
+      - generic [ref=e61]:
+        - heading "Quick Links" [level=5] [ref=e62]
+        - link "Home" [ref=e63] [cursor=pointer]:
+          - /url: /en/
+        - link "Products" [ref=e64] [cursor=pointer]:
+          - /url: /en/products/
+        - link "About" [ref=e65] [cursor=pointer]:
+          - /url: /en/about.html
+        - link "Contact" [ref=e66] [cursor=pointer]:
+          - /url: /en/contact.html
+        - link "Blog" [ref=e67] [cursor=pointer]:
+          - /url: /en/blog/
+      - generic [ref=e68]:
+        - heading "Contact" [level=5] [ref=e69]
+        - paragraph [ref=e70]:
+          - generic [ref=e71]: 
+          - text: info@cinraymetal.com
+        - paragraph [ref=e72]:
+          - generic [ref=e73]: 
+          - text: +86-XXX-XXXX-XXXX
+        - paragraph [ref=e74]:
+          - link " Chat on WhatsApp" [ref=e75] [cursor=pointer]:
+            - /url: https://wa.me/8613800000000
+            - generic [ref=e76]: 
+            - text: Chat on WhatsApp
+      - generic [ref=e77]:
+        - heading "Get In Touch" [level=5] [ref=e78]
+        - paragraph [ref=e79]: Need a quote or have questions about our products? We are here to help.
+        - link "Request Quote" [ref=e80] [cursor=pointer]:
+          - /url: /en/contact.html
+  - paragraph [ref=e83]:
+    - text: © 2026
+    - strong [ref=e84]: Cinray Metal
+    - text: . Designed By
+    - link "HTML Codex" [ref=e85] [cursor=pointer]:
+      - /url: https://htmlcodex.com
+    - text: (CC BY 4.0)
+  - link "" [ref=e86] [cursor=pointer]:
+    - /url: "#"
+    - generic [ref=e87]: 

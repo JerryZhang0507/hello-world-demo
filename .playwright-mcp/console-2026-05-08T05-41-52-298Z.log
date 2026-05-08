@@ -1,0 +1,3 @@
+[      13ms] ReferenceError: initCounters is not defined
+    at HTMLDocument.<anonymous> (http://localhost:9000/assets/js/main.js:91:9)
+[      16ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:9000/assets/img/carousel-2.jpg:0
