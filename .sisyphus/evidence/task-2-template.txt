@@ -1,0 +1,62 @@
+﻿Task 2: Industro Template Acquisition & Verification
+=====================================================
+Date: 2026-05-08
+
+1. TEMPLATE SOURCE
+   - Name: Industro by HTML Codex
+   - Demo: https://themewagon.github.io/Industrio/
+   - License page: https://htmlcodex.com/industrial-html-template/
+   - Files downloaded from GitHub Pages demo (direct ZIP unavailable - requires email)
+
+2. BOOTSTRAP VERSION
+   - bootstrap.min.css: Bootstrap v5.0.0 (header line 2)
+   - bootstrap.bundle.min.js: Bootstrap v5.0.2, MIT licensed
+   - ✅ Bootstrap 5 confirmed
+
+3. LICENSE
+   - Template: CC BY 4.0 (commercial use allowed with attribution)
+   - Bootstrap: MIT
+   - OwlCarousel v2.2.1: MIT
+   - Font Awesome Free 5.10.0: MIT
+   - Bootstrap Icons 1.4.1: MIT
+   - LICENSE file created at assets/LICENSE
+
+4. JQUERY CHECK
+   - grep "jquery" across all assets/ files: NOT FOUND in local files
+   - Original template HTML uses jQuery 3.4.1 from CDN (line 675)
+   - OwlCarousel, CounterUp, Waypoints depend on jQuery
+   - jQuery removal/replacement will be handled in Task 5
+
+5. FILES CREATED (21 files, ~756 KB total)
+   - assets/css/bootstrap.min.css (160 KB)
+   - assets/css/bootstrap.bundle.min.js (77 KB) - downloaded from jsDelivr (v5.0.2)
+   - assets/css/style.css (12 KB) - template custom styles
+   - assets/css/animate.min.css (17 KB)
+   - assets/css/owl.carousel.min.css (3 KB)
+   - assets/css/owl.theme.default.min.css (1 KB)
+   - assets/css/fontawesome.min.css (55 KB) - Font Awesome 5.10.0
+   - assets/css/bootstrap-icons.css (62 KB) - Bootstrap Icons 1.4.1
+   - assets/js/main.js (3 KB) - template custom JS
+   - assets/js/form-config.js (1 KB) - existing Formspree config
+   - assets/lib/wow/wow.min.js (8 KB)
+   - assets/lib/easing/easing.min.js (2 KB)
+   - assets/lib/waypoints/waypoints.min.js (9 KB)
+   - assets/lib/owlcarousel/owl.carousel.min.js (42 KB)
+   - assets/lib/counterup/counterup.min.js (2 KB)
+   - assets/webfonts/fa-solid-900.woff2 (74 KB)
+   - assets/webfonts/fa-brands-400.woff2 (73 KB)
+   - assets/webfonts/fa-regular-400.woff2 (13 KB)
+   - assets/fonts/bootstrap-icons.woff2 (83 KB)
+   - assets/fonts/bootstrap-icons.woff (111 KB)
+   - assets/LICENSE (2 KB)
+
+6. CDN LINKS REPLACED (now local)
+   - Font Awesome: was cdnjs.cloudflare.com → now assets/css/fontawesome.min.css
+   - Bootstrap Icons: was cdn.jsdelivr.net → now assets/css/bootstrap-icons.css
+   - Bootstrap JS: was cdn.jsdelivr.net → now assets/js/bootstrap.bundle.min.js
+
+7. JQUERY-DEPENDENT LIBRARIES (noted for T5 removal)
+   - owl.carousel.min.js (v2.2.1) - uses jQuery
+   - counterup.min.js - requires jQuery + Waypoints
+   - waypoints.min.js - requires jQuery
+   - easing.min.js - jQuery Easing plugin

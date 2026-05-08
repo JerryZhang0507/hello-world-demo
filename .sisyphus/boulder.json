@@ -1,0 +1,68 @@
+{
+  "active_plan": "D:\\UGit\\hello-world-demo\\.sisyphus\\plans\\cinray-metal-site.md",
+  "started_at": "2026-05-08T03:33:48.721Z",
+  "session_ids": [
+    "ses_1fa7a0ebbffeqtfdzzfXdx79IM"
+  ],
+  "session_origins": {
+    "ses_1fa7a0ebbffeqtfdzzfXdx79IM": "direct"
+  },
+  "plan_name": "cinray-metal-site",
+  "agent": "atlas",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "**重写 AGENTS.md** (Wave 1, `quick`)",
+      "session_id": "ses_1fa588babffe79dL79XE2L4kDv",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-05-08T03:38:01.960Z"
+    },
+    "todo:5": {
+      "task_key": "todo:5",
+      "task_label": "5",
+      "task_title": "**提取并适配模板核心资源（CSS/JS）** (Wave 1, `quick`)",
+      "session_id": "ses_1fa4e4ddcffeknTfGglpe57Szz",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-05-08T03:58:45.499Z"
+    },
+    "todo:7": {
+      "task_key": "todo:7",
+      "task_label": "7",
+      "task_title": "**创建共享导航/页脚组件（EN）** (Wave 2, `visual-engineering`)",
+      "session_id": "ses_1fa415eecffezRoouYBz3wJpN6",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-05-08T04:06:17.735Z"
+    },
+    "todo:8": {
+      "task_key": "todo:8",
+      "task_label": "8",
+      "task_title": "**EN 首页 + Organization Schema** (Wave 2, `visual-engineering`)",
+      "session_id": "ses_1fa3a78adffeCs2HItj1aMgqQv",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-05-08T04:12:25.917Z"
+    },
+    "todo:12": {
+      "task_key": "todo:12",
+      "task_label": "12",
+      "task_title": "**EN 扁钢分类页 + 5 详情页** (Wave 3, `visual-engineering`)",
+      "session_id": "ses_1fa301752ffeMZBsTDPfrnEJA5",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-05-08T04:39:16.945Z"
+    },
+    "todo:15": {
+      "task_key": "todo:15",
+      "task_label": "15",
+      "task_title": "**ZH 共享组件 + 核心页面（首页/关于/联系）** (Wave 4, `visual-engineering`)",
+      "session_id": "ses_1fa109a6bffelYVr358x3IQET3",
+      "agent": "Sisyphus-Junior",
+      "category": "visual-engineering",
+      "updated_at": "2026-05-08T05:21:44.280Z"
+    }
+  }
+}
