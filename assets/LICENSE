@@ -1,0 +1,35 @@
+﻿Industro HTML Template - License Summary
+=========================================
+
+Template: Industro by HTML Codex (https://htmlcodex.com)
+Distributed by: ThemeWagon (https://themewagon.com)
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Summary of Permissions:
+- ✅ Commercial use allowed
+- ✅ Modification and adaptation allowed
+- ✅ Distribution allowed
+- ✅ Private use allowed
+
+Requirements:
+- Attribution: Must give appropriate credit to HTML Codex, provide a link to
+  the license, and indicate if changes were made.
+- The footer credit link "Designed By HTML Codex" must be retained unless a
+  Credit Removal License is purchased from https://htmlcodex.com/credit-removal
+
+Bundled Dependencies:
+- Bootstrap v5.0.2: MIT License (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+- OwlCarousel v2.2.1: MIT License (https://github.com/OwlCarousel2/OwlCarousel2/blob/develop/LICENSE)
+- animate.css: MIT License (https://github.com/animate-css/animate.css/blob/main/LICENSE)
+- WOW.js: MIT License
+- Waypoints: MIT License (https://github.com/imakewebthings/waypoints/blob/master/LICENSE.txt)
+- CounterUp: MIT License
+- jQuery Easing: MIT License
+- Font Awesome Free 5.10.0: MIT License (https://fontawesome.com/license/free)
+- Bootstrap Icons 1.4.1: MIT License (https://github.com/twbs/icons/blob/main/LICENSE)
+
+NOTE: The original template includes jQuery v3.4.1 as a dependency.
+jQuery is NOT included in the assets/ directory. Task T5 will handle
+jQuery removal and replace jQuery-dependent functionality with vanilla JS.
