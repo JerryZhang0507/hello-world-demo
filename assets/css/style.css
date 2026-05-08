@@ -1,9 +1,10 @@
-/********** Template CSS **********/
+﻿/********** Template CSS **********/
 :root {
-    --primary: #FF5E14;
+    --primary: #1a3a5c;
+    --accent: #c4922e;
     --secondary: #5F656F;
     --light: #F5F5F5;
-    --dark: #02245B;
+    --dark: #1a3a5c;
 }
 
 .back-to-top {
@@ -62,6 +63,18 @@ h6,
 
 .btn-primary,
 .btn-outline-primary:hover {
+    color: #FFFFFF;
+}
+
+.btn-accent {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #FFFFFF;
+}
+
+.btn-accent:hover {
+    background-color: #a87a24;
+    border-color: #a87a24;
     color: #FFFFFF;
 }
 
@@ -145,7 +158,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--accent);
 }
 
 .navbar .dropdown-toggle::after {
@@ -196,7 +209,7 @@ h6,
     bottom: 0;
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%);
+    background: linear-gradient(to right, rgba(26, 58, 92, 1) 0%, rgba(26, 58, 92, 0) 100%);
     z-index: 1;
 }
 
@@ -209,8 +222,8 @@ h6,
 .carousel-control-next-icon {
     width: 3.5rem;
     height: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: var(--accent);
+    border: 15px solid var(--accent);
     border-radius: 3.5rem;
 }
 
@@ -229,7 +242,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(to right, rgba(26, 58, 92, 1) 0%, rgba(26, 58, 92, 0) 100%), url(../img/carousel-2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -270,7 +283,7 @@ h6,
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: var(--primary);
+    background: var(--accent);
 }
 
 @media (max-width: 992px) {
@@ -291,7 +304,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: var(--primary);
+    background: var(--accent);
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -306,7 +319,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: var(--primary);
+    background: var(--accent);
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -422,7 +435,7 @@ h6,
     display: flex;
     align-items: center;
     text-align: center;
-    background: rgba(2, 36, 91, .7);
+    background: rgba(26, 58, 92, .7);
     transition: .5s;
 }
 
@@ -465,7 +478,7 @@ h6,
 
 .service-item .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--accent);
 }
 
 
@@ -484,8 +497,7 @@ h6,
     transition: .5s;
 }
 
-.project-item:hover img,
-.project-carousel .owl-item.center img {
+.project-item:hover img {
     margin-top: -60px;
 }
 
@@ -504,8 +516,7 @@ h6,
     transition: .5s;
 }
 
-.project-item:hover .project-title,
-.project-carousel .owl-item.center .project-title  {
+.project-item:hover .project-title {
     bottom: -60px;
 }
 
@@ -521,126 +532,8 @@ h6,
     transition: .5s;
 }
 
-.project-carousel .owl-nav {
-    position: absolute;
-    width: 100%;
-    height: 45px;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: space-between;
-    transition: .5s;
-    opacity: 0;
-    z-index: 1;
-}
-
-.project-carousel:hover .owl-nav {
-    opacity: 1;
-}
-
-.project-carousel .owl-nav .owl-prev,
-.project-carousel .owl-nav .owl-next {
-    margin: 0 30px;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background: var(--primary);
-    border-radius: 45px;
-    font-size: 22px;
-    transition: .5s;
-}
-
-
-/*** Team ***/
-.team-item .team-social {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: -100%;
-    display: flex;
-    align-items: center;
-    background: var(--primary);
-    transition: .5s;
-}
-
-.team-item:hover .team-social {
-    left: 0;
-}
-
 
 /*** Testimonial ***/
-.testimonial-carousel::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    z-index: 1;
-}
-
-.testimonial-carousel::after {
-    position: absolute;
-    content: "";
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    z-index: 1;
-}
-
-@media (min-width: 768px) {
-    .testimonial-carousel::before,
-    .testimonial-carousel::after {
-        width: 200px;
-    }
-}
-
-@media (min-width: 992px) {
-    .testimonial-carousel::before,
-    .testimonial-carousel::after {
-        width: 300px;
-    }
-}
-
-.testimonial-carousel .owl-nav {
-    position: absolute;
-    width: 350px;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: space-between;
-    opacity: 0;
-    transition: .5s;
-    z-index: 1;
-}
-
-.testimonial-carousel:hover .owl-nav {
-    width: 300px;
-    opacity: 1;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
-    position: relative;
-    color: var(--primary);
-    font-size: 45px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    color: var(--dark);
-}
-
 .testimonial-carousel .testimonial-img img {
     width: 100px;
     height: 100px;
@@ -653,15 +546,10 @@ h6,
     transform: translateX(-50%);
 }
 
-.testimonial-carousel .owl-item .testimonial-text {
+.testimonial-carousel .testimonial-text {
     margin-bottom: 30px;
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
-    transform: scale(.8);
     transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-text {
-    transform: scale(1);
 }
 
 
