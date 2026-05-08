@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE_TITLE_PLACEHOLDER</title>
+    <meta name="description" content="PAGE_DESC_PLACEHOLDER">
+    <link rel="canonical" href="CANONICAL_URL_PLACEHOLDER">
+    <link rel="alternate" hreflang="zh-CN" href="ZH_URL_PLACEHOLDER">
+    <link rel="alternate" hreflang="x-default" href="https://cinraymetal.com/en/">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../assets/css/fontawesome.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="../assets/css/bootstrap-icons.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="../assets/css/animate.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <style>
+        /* Dark navbar override — existing style.css links are dark-on-light;
+           we need light-on-dark for the deep blue navbar */
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, 0.85);
+        }
+        .navbar-dark .navbar-nav .nav-link:hover,
+        .navbar-dark .navbar-nav .nav-link.active {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==================== Navbar ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #1a3a5c;">
+        <div class="container">
+            <a class="navbar-brand" href="/en/">Cinray Metal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <a class="nav-link active" aria-current="page" href="/en/">Home</a>
+                    <a class="nav-link" href="/en/products/">Products</a>
+                    <a class="nav-link" href="/en/about.html">About</a>
+                    <a class="nav-link" href="/en/contact.html">Contact</a>
+                    <a class="nav-link" href="/en/blog/">Blog</a>
+                </div>
+                <div class="navbar-nav ms-lg-3">
+                    <a class="nav-link" href="/zh/" title="切换到中文"><i class="fas fa-language"></i> 中文</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ==================== Page Content ==================== -->
+    <main>
+        <!--
+        [Page content will be inserted here — replace this placeholder section
+         with actual page content. Keep the <main> tag.]
+        -->
+        <section class="py-5">
+            <div class="container">
+                <h1>PAGE TITLE</h1>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- ==================== Footer ==================== -->
+    <footer class="container-fluid text-white py-5" style="background-color: #0d1f33;">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Column 1: Company Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Cinray Metal</h5>
+                    <p class="mb-0" style="color: #B0B9AE;">
+                        Professional stainless steel raw materials supplier for global export.
+                    </p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Quick Links</h5>
+                    <a class="btn btn-link" href="/en/">Home</a>
+                    <a class="btn btn-link" href="/en/products/">Products</a>
+                    <a class="btn btn-link" href="/en/about.html">About</a>
+                    <a class="btn btn-link" href="/en/contact.html">Contact</a>
+                    <a class="btn btn-link" href="/en/blog/">Blog</a>
+                </div>
+
+                <!-- Column 3: Contact Info -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Contact</h5>
+                    <p class="mb-1" style="color: #B0B9AE;">
+                        <i class="fas fa-envelope me-2"></i>info@cinraymetal.com
+                    </p>
+                    <p class="mb-1" style="color: #B0B9AE;">
+                        <i class="fas fa-phone-alt me-2"></i>+86-XXX-XXXX-XXXX
+                    </p>
+                    <p class="mb-0">
+                        <a href="https://wa.me/8613800000000" style="color: #B0B9AE;">
+                            <i class="fab fa-whatsapp me-2"></i>Chat on WhatsApp
+                        </a>
+                    </p>
+                </div>
+
+                <!-- Column 4: CTA -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Get In Touch</h5>
+                    <p class="mb-3" style="color: #B0B9AE;">
+                        Need a quote or have questions about our products? We are here to help.
+                    </p>
+                    <a href="/en/contact.html" class="btn btn-accent rounded-pill px-4 py-2">
+                        Request Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright Bar -->
+    <div class="container-fluid py-3" style="background-color: #0a1828; border-top: 1px solid rgba(255,255,255,.1);">
+        <div class="container text-center">
+            <p class="mb-0" style="color: #B0B9AE; font-size: 0.9rem;">
+                &copy; 2026 <strong>Cinray Metal</strong>. Designed By <a href="https://htmlcodex.com" style="color: #B0B9AE;">HTML Codex</a> (CC BY 4.0)
+            </p>
+        </div>
+    </div>
+
+
+    <!-- ==================== Back to Top ==================== -->
+    <a href="#" class="back-to-top btn btn-lg btn-accent btn-lg-square rounded-circle">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+    <!-- ==================== Scripts ==================== -->
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
