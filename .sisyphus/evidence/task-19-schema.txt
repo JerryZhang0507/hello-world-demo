@@ -1,0 +1,146 @@
+﻿============================================================
+Cinray Metal - Schema.org Structured Data Validation Report
+Task: task-19-schema
+Date: 2026-05-08
+============================================================
+
+SUMMARY
+-------
+Total HTML pages: 34 (17 EN + 17 ZH)
+Pages with JSON-LD: 26 (13 EN + 13 ZH)
+JSON Validity: ALL 26 PASS (valid JSON, no syntax errors)
+
+============================================================
+1. HOME PAGES (Organization + WebSite)
+============================================================
+
+en/index.html ............ PASS
+  @context: "https://schema.org"
+  @graph: [Organization, WebSite]
+  Organization: @id="#organization", name="Cinray Metal", url, email, telephone, address(CN), sameAs=[]
+  WebSite: @id="#website", url, name, publisher ref → #organization
+
+zh/index.html ............ PASS (identical to EN)
+
+============================================================
+2. PRODUCT DETAIL PAGES (Product + BreadcrumbList)
+============================================================
+
+EN - Flat Steel Bars (5 pages):
+  cold-drawn-304.html .... PASS  Product(sku=FSB-304-CD, offers, brand/manufacturer ref) + BreadcrumbList(4 pos)
+  cold-drawn-316.html .... PASS  (same structure)
+  hot-rolled-304.html .... PASS  (same structure)
+  hot-rolled-316.html .... PASS  (same structure)
+  hot-rolled-316l.html ... PASS  (same structure)
+
+EN - Steel Wire Ropes (5 pages):
+  galzanized-6x19.html ... PASS  Organization(inline) + Product(no offers) + BreadcrumbList(4 pos)
+  galzanized-6x36.html ... PASS  (same structure)
+  stainless-304-7x19.html  PASS  (same structure)
+  stainless-304-7x7.html . PASS  (same structure)
+  stainless-316-7x19.html  PASS  (same structure)
+
+ZH - Flat Steel Bars (5 pages):
+  cold-drawn-304.html .... *FAIL  BreadcrumbList items point to /en/ URLs (not /zh/)
+  cold-drawn-316.html .... *FAIL  BreadcrumbList items point to /en/ URLs
+  hot-rolled-304.html .... *FAIL  BreadcrumbList items point to /en/ URLs
+  hot-rolled-316.html .... *FAIL  BreadcrumbList items point to /en/ URLs
+  hot-rolled-316l.html ... *FAIL  BreadcrumbList items point to /en/ URLs
+
+ZH - Steel Wire Ropes (5 pages):
+  galzanized-6x19.html ... *FAIL  BreadcrumbList items point to /en/ URLs
+  galzanized-6x36.html ... *FAIL  BreadcrumbList items point to /en/ URLs
+  stainless-304-7x19.html  *FAIL  BreadcrumbList items point to /en/ URLs
+  stainless-304-7x7.html . *FAIL  BreadcrumbList items point to /en/ URLs
+  stainless-316-7x19.html  *FAIL  BreadcrumbList items point to /en/ URLs
+
+============================================================
+3. CATEGORY PAGES
+============================================================
+
+en/products/flat-steel-bars/index.html ........ PASS  CollectionPage(@id, name, url, isPartOf) + BreadcrumbList(3 pos)
+zh/products/flat-steel-bars/index.html ........ *FAIL  CollectionPage @id/url use /en/ (should be /zh/)
+en/products/steel-wire-ropes/index.html ....... N/A   (no JSON-LD)
+zh/products/steel-wire-ropes/index.html ....... N/A   (no JSON-LD)
+en/products/index.html ........................ N/A   (no JSON-LD)
+zh/products/index.html ........................ N/A   (no JSON-LD)
+
+============================================================
+4. BLOG PAGES
+============================================================
+
+en/blog/index.html ....... PASS  Organization + WebSite + BreadcrumbList(/en/ URLs)
+zh/blog/index.html ....... PASS  Organization + WebSite + BreadcrumbList(/zh/ URLs) ← ONLY ZH page with correct URLs!
+
+============================================================
+5. GENERIC PAGES (no JSON-LD)
+============================================================
+
+en/about.html ............ N/A   (no JSON-LD)
+en/contact.html .......... N/A   (no JSON-LD)
+zh/about.html ............ N/A   (no JSON-LD)
+zh/contact.html .......... N/A   (no JSON-LD)
+index.html (root) ........ N/A   (redirect page - OK to skip)
+
+============================================================
+6. ISSUES FOUND
+============================================================
+
+CRITICAL (i18n bug):
+  ALL 10 ZH product detail pages + 1 ZH category page have BreadcrumbList
+  URLs pointing to /en/ instead of /zh/. This means Google will index Chinese
+  pages with English URLs in structured data, causing hreflang conflicts.
+
+  AFFECTED FILES (11):
+    zh/products/flat-steel-bars/cold-drawn-304.html
+    zh/products/flat-steel-bars/cold-drawn-316.html
+    zh/products/flat-steel-bars/hot-rolled-304.html
+    zh/products/flat-steel-bars/hot-rolled-316.html
+    zh/products/flat-steel-bars/hot-rolled-316l.html
+    zh/products/flat-steel-bars/index.html        (+ @id/url)
+    zh/products/steel-wire-ropes/galvanized-6x19.html
+    zh/products/steel-wire-ropes/galvanized-6x36.html
+    zh/products/steel-wire-ropes/stainless-304-7x19.html
+    zh/products/steel-wire-ropes/stainless-304-7x7.html
+    zh/products/steel-wire-ropes/stainless-316-7x19.html
+
+  FIX: Replace all "/en/" with "/zh/" in "item" URLs within these files.
+  Reference: zh/blog/index.html (already correct, uses /zh/ URLs).
+
+INCONSISTENCY (Organization schema variant):
+  Flat steel pages use @id reference to #organization (no inline).
+  Wire rope pages embed Organization inline with "contactPoint" instead
+  of "telephone" and "address". Home pages embed Organization with
+  both "telephone" and "address". These should be unified.
+
+  MISSING FIELDS (wire rope Organization):
+    - telephone: "+86-XXX-XXXX-XXXX"
+    - address: PostalAddress with addressCountry "CN"
+    - sameAs: []
+    - url: "https://cinraymetal.com"
+
+  MISSING FIELDS (flat steel Product, no inline Org):
+    These rely on @id reference - acceptable if Organization is defined
+    on a crawled page, but safer to include inline for standalone indexing.
+
+GAPS (8 pages WITHOUT JSON-LD):
+  en/about.html, en/contact.html, en/products/index.html
+  en/products/steel-wire-ropes/index.html
+  zh/about.html, zh/contact.html, zh/products/index.html
+  zh/products/steel-wire-ropes/index.html
+
+  About/Contact pages: Should have Organization schema for SEO.
+  Product listing pages: Should have ItemList or CollectionPage schema.
+
+============================================================
+7. SCORE
+============================================================
+
+JSON validity:        26/26 PASS (100%)
+Home page schema:      2/2  PASS (100%)
+Product page schema:  10/10 EN PASS (100%)
+Product page schema:   0/10 ZH PASS (i18n URL bug)
+BreadcrumbList:       11/11 EN PASS (100%)
+BreadcrumbList:        1/11 ZH PASS (blog only)
+
+OVERALL: 26 files valid JSON, 11 ZH pages with i18n URL bug

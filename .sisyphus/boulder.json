@@ -63,6 +63,15 @@
       "agent": "Sisyphus-Junior",
       "category": "visual-engineering",
       "updated_at": "2026-05-08T05:21:44.280Z"
+    },
+    "todo:18": {
+      "task_key": "todo:18",
+      "task_label": "18",
+      "task_title": "**全局 hreflang 双向链接** (Wave 4, `quick`)",
+      "session_id": "ses_1f9f60910ffemx3bPHlaIGZcul",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-05-08T05:29:21.944Z"
     }
   }
 }
